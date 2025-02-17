@@ -1,4 +1,4 @@
-const app = require('../app.js');
+const app = require('../api/app.js');
 const request = require('supertest')(app);
 
 describe('GET', function(){
